@@ -1,0 +1,5 @@
+/target
+/rsync.sh
+
+# Performance test generated files
+key_events.csv
