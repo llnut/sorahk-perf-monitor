@@ -2,15 +2,15 @@ name: ci
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "master" ]
   workflow_dispatch:
     inputs:
       branch:
         description: 'Branch to run the workflow on'
         required: true
-        default: 'main'
+        default: 'master'
         type: string
 
 # Cancel in-progress runs for the same workflow and ref
